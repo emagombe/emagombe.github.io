@@ -3,8 +3,92 @@
 <head>
 	<title>Mysql-api-endpoint</title>
 	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./libs/mdl/material.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 </head>
 <body>
-	<h1>Mysql-api-endpoint</h1>
+
+
+	<div class="mdl-layout mdl-js-layout mdl-layout--fixed-drawer mdl-layout--fixed-header">
+	  <header class="mdl-layout__header">
+	    <div class="mdl-layout__header-row">
+	      <div class="mdl-layout-spacer"></div>
+	      <div class="mdl-textfield mdl-js-textfield mdl-textfield--expandable
+	                  mdl-textfield--floating-label mdl-textfield--align-right">
+	        <label class="mdl-button mdl-js-button mdl-button--icon"
+	               for="fixed-header-drawer-exp">
+	          <i class="material-icons">search</i>
+	        </label>
+	        <div class="mdl-textfield__expandable-holder">
+	          <input class="mdl-textfield__input" type="text" name="sample"
+	                 id="fixed-header-drawer-exp">
+	        </div>
+	      </div>
+	    </div>
+	  </header>
+	  <div class="mdl-layout__drawer">
+	    <span class="mdl-layout-title">Documentation</span>
+	    <nav class="mdl-navigation">
+	      <a class="mdl-navigation__link" href="./index.html">Get started</a>
+	      <a class="mdl-navigation__link" href="./docs/installation.html">Installation</a>
+	      <a class="mdl-navigation__link" href="">Server settings</a>
+	      <a class="mdl-navigation__link" href="">Find</a>
+	      <a class="mdl-navigation__link" href="">Store</a>
+	      <a class="mdl-navigation__link" href="">Update</a>
+	      <a class="mdl-navigation__link" href="">Remove</a>
+	      <a class="mdl-navigation__link" href="">Upload</a>
+	      <a class="mdl-navigation__link" href="">Authentication</a>
+	      <a class="mdl-navigation__link" href="">Hash</a>
+	      <a class="mdl-navigation__link" href="">Md5</a>
+	    </nav>
+	  </div>
+	  <main class="mdl-layout__content">
+	    <div class="page-content">
+	    	<style>
+				.demo-card-wide.mdl-card {
+				  width: auto;
+				  margin-top: 50px;
+				  margin-left: 10px;
+				  margin-right: 10px;
+				}
+
+				.demo-card-wide > .mdl-card__title {
+
+				}
+				.demo-card-wide > .mdl-card__menu {
+				  color: #fff;
+				}
+			</style>
+	    	<div class="demo-card-wide mdl-card mdl-shadow--2dp" style="padding-left: 20; padding-right: 20">
+			  <div class="mdl-card__title">
+			    <h2 class="" style="color: #310598;">MySql API Endpind for any database</h2>
+			  </div>
+			  <div class="mdl-card__supporting-text">
+			    This is an api built to remove the worries from the Frontend develpers to care about to create an API endpoint to their apps to interact with database servers.
+
+			    <p>
+			    	With this API you can connect to any MySql database and start managing your database from you web application
+			    </p>
+			    <p>
+			    	<br>
+			    	Let's to installation process to get started!
+			    </p>
+			  </div>
+			  <div class="mdl-card__actions mdl-card--border">
+			    <a href="./docs/installation.html" class="mdl-button mdl-js-button mdl-button--raised mdl-button--colored mdl-js-ripple-effect" style="margin-left: 20px;">
+			      Installation
+			    </a>
+			  </div>
+			  <div class="mdl-card__menu">
+			    <button class="mdl-button mdl-button--icon mdl-js-button mdl-js-ripple-effect">
+			      <i class="material-icons">share</i>
+			    </button>
+			  </div>
+			</div>
+	    </div>
+	  </main>
+	</div>
+
+	<script type="text/javascript" src="./libs/mdl/material.min.js"></script>
 </body>
 </html>
