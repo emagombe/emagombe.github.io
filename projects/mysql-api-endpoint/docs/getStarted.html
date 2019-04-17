@@ -29,9 +29,7 @@
 	  <div class="mdl-layout__drawer">
 	    <span class="mdl-layout-title">Documentation</span>
 	    <nav class="mdl-navigation">
-	      <a class="mdl-navigation__link" href="../index.html">Get started</a>
-	      <a class="mdl-navigation__link" href="">Installation</a>
-	      <a class="mdl-navigation__link" href="">Server settings</a>
+	      <a class="mdl-navigation__link" href="">Get started</a>
 	      <a class="mdl-navigation__link" href="">Find</a>
 	      <a class="mdl-navigation__link" href="">Store</a>
 	      <a class="mdl-navigation__link" href="">Update</a>
@@ -43,9 +41,43 @@
 	    </nav>
 	  </div>
 	  <main class="mdl-layout__content">
-	    <div class="page-content"><!-- Your content goes here --></div>
-	  </main>
-	</div>
+	    <div class="page-content">
+	    	<style>
+				.demo-card-wide.mdl-card {
+				  width: auto;
+				  margin-top: 50px;
+				  margin-left: 10px;
+				  margin-right: 10px;
+				}
+				.demo-card-wide > .mdl-card__title {
+
+				}
+				.demo-card-wide > .mdl-card__menu {
+				  color: #fff;
+				}
+			</style>
+			<div class="demo-card-wide mdl-card mdl-shadow--2dp" style="padding-left: 20; padding-right: 20">
+			  <div class="mdl-card__title">
+			    <h2 class="" style="color: #310598;">Getting started</h2>
+			  </div>
+			  <div style="padding-left: 16px; padding-right: 16px;">
+				  	Before anything as it was whitten in PHP you would need to install a PHP server!
+				  	<br>
+				  	<br>
+				  	<h4>Installation</h4>
+				  	<p>
+				  		Install the API cloning the <a href="https://github.com">Git hub</a> repository <a href="https://github.com/emagombe/mysql-api-endpoint">https://github.com/emagombe/mysql-api-endpoint</a> and place it in your server
+				  	</p>
+				  	<br>
+				  	<h4>Database settings</h4>
+				  	<p>
+				  		Open the file <strong>/path/to/mysql-api-endpoint/config.php</strong>
+				  	</p>
+			  	</div>
+			  </div>
+		    </div>
+		  </main>
+		</div>
 
 	<script type="text/javascript" src="../libs/mdl/material.min.js"></script>
 </body>
